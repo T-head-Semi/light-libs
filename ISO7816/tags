@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CARD_PROTOCOL_T0	dsmart_card_interface.h	24;"	d
+CARD_PROTOCOL_T1	dsmart_card_interface.h	25;"	d
+DSMART_CARD_BASE	dsmart_card_interface.h	61;"	d
+DSMART_CARD_E_ACCESS	dsmart_card_interface.h	5;"	d
+DSMART_CARD_E_ACTIVATE_FAILED	dsmart_card_interface.h	15;"	d
+DSMART_CARD_E_ACT_TIMEOUT	dsmart_card_interface.h	13;"	d
+DSMART_CARD_E_CRC_ERR	dsmart_card_interface.h	18;"	d
+DSMART_CARD_E_CWT_TIM	dsmart_card_interface.h	20;"	d
+DSMART_CARD_E_DATA_RCV_FAILED	dsmart_card_interface.h	14;"	d
+DSMART_CARD_E_DATA_TIMEOUT	dsmart_card_interface.h	6;"	d
+DSMART_CARD_E_NOACT	dsmart_card_interface.h	8;"	d
+DSMART_CARD_E_NOCARD	dsmart_card_interface.h	7;"	d
+DSMART_CARD_E_NO_CRD_EV	dsmart_card_interface.h	12;"	d
+DSMART_CARD_E_NO_RX_EV	dsmart_card_interface.h	10;"	d
+DSMART_CARD_E_NO_TX_EV	dsmart_card_interface.h	11;"	d
+DSMART_CARD_E_PAR_ERR	dsmart_card_interface.h	17;"	d
+DSMART_CARD_E_REMOVED	dsmart_card_interface.h	9;"	d
+DSMART_CARD_E_REP_ERR	dsmart_card_interface.h	19;"	d
+DSMART_CARD_E_RX_OVER	dsmart_card_interface.h	21;"	d
+DSMART_CARD_E_TX_FULL	dsmart_card_interface.h	16;"	d
+DSMART_CARD_IOCTL_ATR_RCV	dsmart_card_interface.h	72;"	d
+DSMART_CARD_IOCTL_COLD_RESET	dsmart_card_interface.h	64;"	d
+DSMART_CARD_IOCTL_DEACTIVATE	dsmart_card_interface.h	63;"	d
+DSMART_CARD_IOCTL_RCV	dsmart_card_interface.h	71;"	d
+DSMART_CARD_IOCTL_SET_BAUD	dsmart_card_interface.h	67;"	d
+DSMART_CARD_IOCTL_SET_PROTOCOL	dsmart_card_interface.h	62;"	d
+DSMART_CARD_IOCTL_SET_RX_THRESHOLD	dsmart_card_interface.h	68;"	d
+DSMART_CARD_IOCTL_SET_TIMING	dsmart_card_interface.h	66;"	d
+DSMART_CARD_IOCTL_SET_TX_THRESHOLD	dsmart_card_interface.h	69;"	d
+DSMART_CARD_IOCTL_WARM_RESET	dsmart_card_interface.h	65;"	d
+DSMART_CARD_IOCTL_XMT	dsmart_card_interface.h	70;"	d
+DSMART_CARD_OK	dsmart_card_interface.h	4;"	d
+DSMART_CARD_STATE_ERR_EVENT	dsmart_card_interface.h	22;"	d
+IOCSIZE_MASK	ioctl.h	104;"	d
+IOCSIZE_SHIFT	ioctl.h	105;"	d
+IOC_IN	ioctl.h	101;"	d
+IOC_INOUT	ioctl.h	103;"	d
+IOC_OUT	ioctl.h	102;"	d
+_DSMART_CARD_INTERFACE_H	dsmart_card_interface.h	2;"	d
+_IO	ioctl.h	85;"	d
+_IOC	ioctl.h	69;"	d
+_IOC_DIR	ioctl.h	94;"	d
+_IOC_DIRBITS	ioctl.h	36;"	d
+_IOC_DIRMASK	ioctl.h	42;"	d
+_IOC_DIRSHIFT	ioctl.h	47;"	d
+_IOC_NONE	ioctl.h	58;"	d
+_IOC_NR	ioctl.h	96;"	d
+_IOC_NRBITS	ioctl.h	23;"	d
+_IOC_NRMASK	ioctl.h	39;"	d
+_IOC_NRSHIFT	ioctl.h	44;"	d
+_IOC_READ	ioctl.h	66;"	d
+_IOC_SIZE	ioctl.h	97;"	d
+_IOC_SIZEBITS	ioctl.h	32;"	d
+_IOC_SIZEMASK	ioctl.h	41;"	d
+_IOC_SIZESHIFT	ioctl.h	46;"	d
+_IOC_TYPE	ioctl.h	95;"	d
+_IOC_TYPEBITS	ioctl.h	24;"	d
+_IOC_TYPECHECK	ioctl.h	76;"	d
+_IOC_TYPEMASK	ioctl.h	40;"	d
+_IOC_TYPESHIFT	ioctl.h	45;"	d
+_IOC_WRITE	ioctl.h	62;"	d
+_IOR	ioctl.h	86;"	d
+_IOR_BAD	ioctl.h	89;"	d
+_IOW	ioctl.h	87;"	d
+_IOWR	ioctl.h	88;"	d
+_IOWR_BAD	ioctl.h	91;"	d
+_IOW_BAD	ioctl.h	90;"	d
+_UAPI_ASM_GENERIC_IOCTL_H	ioctl.h	3;"	d
+atr_buffer	dsmart_card_interface.h	/^	unsigned char *atr_buffer;$/;"	m	struct:dsmart_card_atr
+bgt	dsmart_card_interface.h	/^	unsigned int bgt;$/;"	m	struct:dsmart_card_timing
+bwt	dsmart_card_interface.h	/^	unsigned int bwt;$/;"	m	struct:dsmart_card_timing
+cwt	dsmart_card_interface.h	/^	unsigned int cwt;$/;"	m	struct:dsmart_card_timing
+di	dsmart_card_interface.h	/^	unsigned char di;$/;"	m	struct:dsmart_card_baud
+dsmart_card_atr	dsmart_card_interface.h	/^struct dsmart_card_atr {$/;"	s
+dsmart_card_baud	dsmart_card_interface.h	/^struct dsmart_card_baud {$/;"	s
+dsmart_card_rcv	dsmart_card_interface.h	/^struct dsmart_card_rcv {$/;"	s
+dsmart_card_timing	dsmart_card_interface.h	/^struct dsmart_card_timing {$/;"	s
+dsmart_card_xmt	dsmart_card_interface.h	/^struct dsmart_card_xmt {$/;"	s
+egt	dsmart_card_interface.h	/^	unsigned int egt;$/;"	m	struct:dsmart_card_timing
+errval	dsmart_card_interface.h	/^	int errval;$/;"	m	struct:dsmart_card_atr
+errval	dsmart_card_interface.h	/^	int errval;$/;"	m	struct:dsmart_card_rcv
+errval	dsmart_card_interface.h	/^	int errval;$/;"	m	struct:dsmart_card_xmt
+fi	dsmart_card_interface.h	/^	unsigned char fi;$/;"	m	struct:dsmart_card_baud
+len	dsmart_card_interface.h	/^	unsigned int len;	\/* length of ATR received *\/$/;"	m	struct:dsmart_card_atr
+main	iso7816_test.c	/^int main()$/;"	f
+rcv_buffer	dsmart_card_interface.h	/^	unsigned char *rcv_buffer;$/;"	m	struct:dsmart_card_rcv
+rcv_length	dsmart_card_interface.h	/^	int rcv_length;$/;"	m	struct:dsmart_card_rcv
+time_out	dsmart_card_interface.h	/^	int time_out;$/;"	m	struct:dsmart_card_rcv
+time_out	dsmart_card_interface.h	/^	int time_out;$/;"	m	struct:dsmart_card_xmt
+wwt	dsmart_card_interface.h	/^	unsigned int wwt;$/;"	m	struct:dsmart_card_timing
+xmt_buffer	dsmart_card_interface.h	/^	unsigned char *xmt_buffer;$/;"	m	struct:dsmart_card_xmt
+xmt_length	dsmart_card_interface.h	/^	int xmt_length;$/;"	m	struct:dsmart_card_xmt
